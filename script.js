@@ -18,8 +18,29 @@ function handleCommand(command) {
   const outputElement = document.querySelector(".body");
   switch (command) {
     case "help":
-      outputElement.innerHTML =
-        "<p>Available commands:</p><ul><li>about</li><li>projects</li><li>skills</li><li>certifications</li><li>achievements</li><li>education</li> <li>contacts</li></ul>";
+      outputElement.innerHTML = `
+        <p>Available commands:</p>
+        <div class="command">
+          <span style="color: rgb(5, 206, 145);">about</span>               - <span class="description">about Amlendra</span>
+        </div>
+        <div class="command">
+          <span style="color: rgb(5, 206, 145);">education</span>       - <span class="description">my education background</span>
+        </div>
+        <div class="command">
+          <span style="color: rgb(5, 206, 145);">help</span>                   - <span class="description">check available commands</span>
+        </div>
+        <div class="command">
+          <span style="color: rgb(5, 206, 145);">projects</span>            - <span class="description">view projects that I've coded</span>
+        </div>
+        <div class="command">
+          <span style="color: rgb(5, 206, 145);">certifications</span>    - <span class="description">about my certifications</span>
+        </div>
+        <div class="command">
+          <span style="color: rgb(5, 206, 145);">contacts</span>            - <span class="description">my contacts</span>
+        </div>
+        <div class="command">
+          <span style="color: rgb(5, 206, 145);">skills</span>                    - <span class="description">my skills</span>
+        </div>`;
       break;
     case "about":
       outputElement.innerHTML =

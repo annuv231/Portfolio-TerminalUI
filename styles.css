@@ -67,6 +67,16 @@ body {
   outline: none;
   font-size: inherit; /* Inherit font size from parent */
 }
+.command {
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-left: 10px;
+  display: inline-block;
+  width: 300px; /* Adjust width as needed */
+  vertical-align: top;
+}
 
 /* Additional CSS for initial message */
 .body p:first-child {
