@@ -55,7 +55,7 @@ function handleCommand(command) {
 
     case "contact":
       outputElement.innerHTML =
-        "<p>Contact:</p><ul><li>Email: amlendra231@gmail.com</li><li>Phone: +91-7240562966</li><li>GitHub: <a href='https://github.com/annuv231' target='_blank'>GitHub.com/annuv231</a></li></ul>";
+        "<p>Contact:</p><ul><li>Email: amlendra231@gmail.com</li><li>Phone: +91-7240xxxxxx</li><li>GitHub: <a href='https://github.com/annuv231' target='_blank'>GitHub.com/annuv231</a></li></ul>";
       break;
     default:
       outputElement.innerHTML =
