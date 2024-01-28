@@ -1,0 +1,89 @@
+body {
+  font-family: "Courier New", monospace;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.terminal {
+  width: 600px;
+  margin: 100px auto;
+  background-color: #0a0a0a;
+  border: 2px solid #00ff00;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.header {
+  height: 30px;
+  background-color: #0a0a0a;
+  padding: 10px;
+}
+
+.header span {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.red {
+  background-color: #ff4d4d;
+}
+
+.yellow {
+  background-color: #ffff66;
+}
+
+.green {
+  background-color: #66ff66;
+}
+
+.body {
+  padding: 20px;
+}
+
+.input {
+  display: flex;
+  padding: 10px;
+  background-color: #0a0a0a;
+}
+
+.input span {
+  color: #00ff00;
+  margin-right: 10px;
+}
+
+.input input {
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  outline: none;
+}
+
+/* Additional CSS for initial message */
+.body p:first-child {
+  margin-top: 0;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  .terminal {
+    width: 90%;
+    margin: 50px auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .terminal {
+    width: 95%;
+    margin: 30px auto;
+  }
+
+  .body {
+    padding: 10px;
+  }
+}
