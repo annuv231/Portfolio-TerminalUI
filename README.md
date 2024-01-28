@@ -8,11 +8,6 @@ This is a simple portfolio website with a terminal-style user interface, built u
 
 The portfolio website provides a terminal-like experience where users can interact with the interface by entering commands to view different sections such as About, Projects, Skills, Certifications, Achievements, Education, and Contact information.
 
-## Features
-
-- Responsive design for various screen sizes.
-- Commands for accessing different sections of the portfolio.
-- Detailed information provided for each section.
 
 ## Usage
 
