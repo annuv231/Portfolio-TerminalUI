@@ -20,27 +20,13 @@ function handleCommand(command) {
     case "help":
       outputElement.innerHTML = `
         <p>Available commands:</p>
-        <div class="command">
-          <span style="color: rgb(5, 206, 145);">about</span>               - <span class="description">about Amlendra</span>
-        </div>
-        <div class="command">
-          <span style="color: rgb(5, 206, 145);">education</span>       - <span class="description">my education background</span>
-        </div>
-        <div class="command">
-          <span style="color: rgb(5, 206, 145);">help</span>                   - <span class="description">check available commands</span>
-        </div>
-        <div class="command">
-          <span style="color: rgb(5, 206, 145);">projects</span>            - <span class="description">view projects that I've coded</span>
-        </div>
-        <div class="command">
-          <span style="color: rgb(5, 206, 145);">certifications</span>    - <span class="description">about my certifications</span>
-        </div>
-        <div class="command">
-          <span style="color: rgb(5, 206, 145);">contacts</span>            - <span class="description">my contacts</span>
-        </div>
-        <div class="command">
-          <span style="color: rgb(5, 206, 145);">skills</span>                    - <span class="description">my skills</span>
-        </div>`;
+        <p class="command"><span style="color: rgb(5, 206, 145);">about</span> - about Amlendra</p>
+        <p class="command"><span style="color: rgb(5, 206, 145);">education</span> - my education background</p>
+        <p class="command"><span style="color: rgb(5, 206, 145);">help</span> - check available commands</p>
+        <p class="command"><span style="color: rgb(5, 206, 145);">projects</span> - view projects that I've coded</p>
+        <p class="command"><span style="color: rgb(5, 206, 145);">certifications</span> - about my certifications</p>
+        <p class="command"><span style="color: rgb(5, 206, 145);">contacts</span> - my contacts</p>
+        <p class="command"><span style="color: rgb(5, 206, 145);">skills</span> - my skills</p>`;
       break;
     case "about":
       outputElement.innerHTML =
