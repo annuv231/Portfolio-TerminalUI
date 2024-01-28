@@ -19,11 +19,11 @@ function handleCommand(command) {
   switch (command) {
     case "help":
       outputElement.innerHTML =
-        "<p>Available commands:</p><ul><li>About</li><li>Projects</li><li>Skills</li><li>Certifications</li><li>Achievements</li><li>Education</li> <li>Contacts</li></ul>";
+        "<p>Available commands:</p><ul><li>about</li><li>projects</li><li>skills</li><li>certifications</li><li>achievements</li><li>education</li> <li>contacts</li></ul>";
       break;
     case "about":
       outputElement.innerHTML =
-        "<p>About Me: Experienced System Administrator with over 2 years and 8 months of hands-on expertise in Windows, Linux administration and UiPath administration, cloud technologies (AWS and Azure), automation tools (puppet, uipath), and proficiency in Python. Seeking a challenging position to leverage my skills in system administration, cloud computing, and automation.</p>";
+        "<p>Experienced System Administrator with over 2 years and 8 months of hands-on expertise in Windows, Linux administration and UiPath administration, cloud technologies (AWS and Azure), automation tools (puppet, uipath), and proficiency in Python. Seeking a challenging position to leverage my skills in system administration, cloud computing, and automation.</p>";
       break;
     case "projects":
       outputElement.innerHTML =
