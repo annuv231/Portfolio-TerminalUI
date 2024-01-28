@@ -1,5 +1,7 @@
 # Portfolio Terminal UI
 
+https://annuv231.github.io/Portfolio-TerminalUI/
+
 ![image](https://github.com/annuv231/Portfolio-TerminalUI/assets/33187053/b67d7cac-b392-4a61-b608-42f2adade045)
 
 This is a simple portfolio website with a terminal-style user interface, built using HTML, CSS, and JavaScript.
