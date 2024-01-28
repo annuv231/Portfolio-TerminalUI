@@ -2,7 +2,8 @@
 
 https://annuv231.github.io/Portfolio-TerminalUI/
 
-![image](https://github.com/annuv231/Portfolio-TerminalUI/assets/33187053/b67d7cac-b392-4a61-b608-42f2adade045)
+![image](https://github.com/annuv231/Portfolio-TerminalUI/assets/33187053/cdb97f86-744e-47f1-a150-59d6433f6b2f)
+
 
 This is a simple portfolio website with a terminal-style user interface, built using HTML, CSS, and JavaScript.
 
@@ -18,7 +19,8 @@ The portfolio website provides a terminal-like experience where users can intera
 - Open the index.html file in your web browser to view the portfolio website.
 - Enter commands in the terminal to navigate through different sections:
 
-![image](https://github.com/annuv231/Portfolio-TerminalUI/assets/33187053/63bc2012-1872-437a-ba97-d3d2337685a1)
+![image](https://github.com/annuv231/Portfolio-TerminalUI/assets/33187053/a01d115f-68d6-47a8-aefb-7f9c75974425)
+
 
 ### Credits
 
