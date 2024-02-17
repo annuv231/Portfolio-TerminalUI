@@ -18,19 +18,17 @@ function handleCommand(command) {
   const outputElement = document.querySelector(".body");
   switch (command) {
     case "help":
-  outputElement.innerHTML = `
-    <p>Available commands:</p>
-    <div class="help-commands">
-      <p class="command"><span style="color: rgb(5, 206, 145);">about</span> - about Amlendra</p>
-      <p class="command"><span style="color: rgb(5, 206, 145);">education</span> - my education background</p>
-      <p class="command"><span style="color: rgb(5, 206, 145);">help</span> - check available commands</p>
-      <p class="command"><span style="color: rgb(5, 206, 145);">projects</span> - view projects that I've coded</p>
-      <p class="command"><span style="color: rgb(5, 206, 145);">certifications</span> - about my certifications</p>
-      <p class="command"><span style="color: rgb(5, 206, 145);">contacts</span> - my contacts</p>
-      <p class="command"><span style="color: rgb(5, 206, 145);">skills</span> - my skills</p>
-    </div>
-  `;
-  break;
+      outputElement.innerHTML = `
+        <p>Available commands:</p>
+        <p class="command"><span style="color: rgb(5, 206, 145);">about</span> - about Amlendra</p>
+        <p class="command"><span style="color: rgb(5, 206, 145);">education</span> - my education background</p>
+        <p class="command"><span style="color: rgb(5, 206, 145);">help</span> - check available commands</p>
+        <p class="command"><span style="color: rgb(5, 206, 145);">projects</span> - view projects that I've coded</p>
+        <p class="command"><span style="color: rgb(5, 206, 145);">certifications</span> - about my certifications</p>
+        <p class="command"><span style="color: rgb(5, 206, 145);">contacts</span> - my contacts</p>
+        <p class="command"><span style="color: rgb(5, 206, 145);">contact</span> - my contact</p>
+        <p class="command"><span style="color: rgb(5, 206, 145);">skills</span> - my skills</p>`;
+      break;
     case "about":
       outputElement.innerHTML =
         "<p>Experienced System Administrator with over 2 years and 8 months of hands-on expertise in Windows, Linux administration and UiPath administration, cloud technologies (AWS and Azure), automation tools (puppet, uipath), and proficiency in Python. Seeking a challenging position to leverage my skills in system administration, cloud computing, and automation.</p>";
