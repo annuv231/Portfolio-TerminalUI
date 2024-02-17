@@ -25,7 +25,7 @@ function handleCommand(command) {
         <p class="command"><span style="color: rgb(5, 206, 145);">help</span> - check available commands</p>
         <p class="command"><span style="color: rgb(5, 206, 145);">projects</span> - view projects that I've coded</p>
         <p class="command"><span style="color: rgb(5, 206, 145);">certifications</span> - about my certifications</p>
-        <p class="command"><span style="color: rgb(5, 206, 145);">contacts</span> - my contacts</p>
+        <p class="command"><span style="color: rgb(5, 206, 145);">contact</span> - my contacts</p>
         <p class="command"><span style="color: rgb(5, 206, 145);">skills</span> - my skills</p>`;
       break;
     case "about":
@@ -33,12 +33,65 @@ function handleCommand(command) {
         "<p>Experienced System Administrator with over 2 years and 8 months of hands-on expertise in Windows, Linux administration and UiPath administration, cloud technologies (AWS and Azure), automation tools (puppet, uipath), and proficiency in Python. Seeking a challenging position to leverage my skills in system administration, cloud computing, and automation.</p>";
       break;
     case "projects":
-      outputElement.innerHTML =
-        "<p>My Projects:</p><ul><li>Project 1</li><li>Project 2</li><li>Project 3</li></ul>";
+      outputElement.innerHTML = `
+        <p>My Projects:</p>
+        <ul>
+          <li>
+            <b>Build Private Cloud Server | VPN, Network Storage, Media Server, Docker</b>
+            <p>Transformed old laptop into versatile home server: network storage, media streaming, remote access.</p>
+            <p>Utilized Ubuntu Server, Samba, Jellyfin, WireGuard for comprehensive setup.</p>
+            <p>Achieved e-waste, cost savings and enhanced data accessibility.</p>
+            <p>Used as Personal EC2 Instance which can be SSH from anywhere.</p>
+          </li>
+          <li>
+            <b>Automated Build CI/CD pipelines | Git, Jenkins, Maven, Ansible, Docker and Kubernetes, AWS</b>
+            <p>Automated the build process using maven, ensuring consistency and reproducibility across environments.</p>
+            <p>Packaged the application as a WAR file for efficient deployment to containerized environments.</p>
+            <p>Served as the central orchestration platform, triggering builds, running tests, and deploying artifacts.</p>
+            <p>Provisioned and configured target environments (Dev, Test, Prod) using Infrastructure as Code (IaC) for consistency and repeatability.</p>
+          </li>
+          </ul>
+      `;
       break;
-    case "skills":
-      outputElement.innerHTML =
-        "<div>p>- Operating System: Linux, Windows</p> <p>- Language: C++, Python, Shell scripting</p<p>- Automation: Puppet</p> <p>- Version Control: Github, Gitlab</p> <p>- Containerization: Docker, K8s</p> <p>- Agile Development</p> <p>- AWS, Azure, Terraform, UiPath</p> <br /></div>";
+     case "skills":
+      outputElement.innerHTML = `
+        <div>
+          <h3>Languages:</h3>
+          <ul>
+            <li>C/C++</li>
+            <li>Bash</li>
+            <li>Powershell scripting</li>
+            <li>Javascript</li>
+          </ul>
+          <h3>Cloud Platform:</h3>
+          <ul>
+            <li>Azure (Certified)</li>
+            <li>AWS</li>
+          </ul>
+          <h3>Developer Tools:</h3>
+          <ul>
+            <li>Git</li>
+            <li>Docker</li>
+            <li>Gitlab</li>
+            <li>Terraform</li>
+          </ul>
+          <h3>Configuration Management:</h3>
+          <ul>
+            <li>Puppet</li>
+            <li>Ansible</li>
+          </ul>
+          <h3>IAAC:</h3>
+          <ul>
+            <li>Azure ARM</li>
+            <li>Terraform</li>
+          </ul>
+          <h3>IT Service Management:</h3>
+          <ul>
+            <li>ServiceNow</li>
+            <li>Jira</li>
+          </ul>
+        </div>
+      `;
       break;
     case "certifications":
       outputElement.innerHTML =
