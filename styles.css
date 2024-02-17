@@ -71,7 +71,17 @@ body {
 .body p:first-child {
   margin-top: 0;
 }
+.help-commands {
+  display: flex;
+  flex-wrap: wrap; /* Ensures items wrap to next line if needed */
+  justify-content: space-between; /* Distributes items evenly */
+}
 
+.help-commands p {
+  flex: 1; /* Ensures equal width for each command entry */
+  margin: 0; /* Removes default margin */
+  padding: 5px; /* Adds some padding for better spacing */
+}
 /* Responsive styles */
 @media only screen and (max-width: 768px) {
   .terminal {
